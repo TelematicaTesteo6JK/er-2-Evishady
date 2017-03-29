@@ -1,0 +1,26 @@
+EJERCICIO:
+
+Eres un usuario de un juego en línea en el que puedes adquirir objetos exclusivos para tu personaje,al adquirir determinada cantidad el precio de cada objeto varía.
+
+De 1 a 8 objetos, cada objeto te cuesta $50
+de 9 a 13 objetos, cada objeto te cuesta $40
+más de 14 objetos, te cuesta cada uno a $25
+
+
+TEST DATA    -  EXPECTED RESULT
+-3			 -	Error
+11           -  $440
+35			 -	$875
+********************************
+TEST DATA    -  EXPECTED RESULT
+0			 -	Error
+1		     - $50		
+8            - $400
+9			 - $360
+13           - $520
+14           - $350
+
+
+////////////////////////////////
+
+El testeo de este ejercicio será de nivel de unidad, porque se estaría evaluándo una sola función que corresponde a calcular el total de precio por determinada cantidad de objetos en una compra.
